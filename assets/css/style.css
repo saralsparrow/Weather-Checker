@@ -1,0 +1,13 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
