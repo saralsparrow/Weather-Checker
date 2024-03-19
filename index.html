@@ -9,12 +9,17 @@
 <body>
     <div class="container">
         <h1>Weather Forecast</h1>
+        <div id="currentDate"></div>
         <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Enter City">
-            <button onclick="searchWeather()">Search</button>
+            <input type="text" id="searchInput" placeholder="Enter City" style="font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: #FFE5EF;">
+            <div id="searchHistoryDropdown" class="dropdown-content"></div>
+            <button onclick="searchWeather()" style="font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: #FFE5EF;">Search</button>
+        <div id="cityName" style="text-decoration: underline;"></div>
         </div>
-        <div id="currentWeatherInfo"></div>
-        <div id="futureWeatherInfo"></div>
+        <div id="weatherInfoContainer">
+            <div id="currentWeatherInfo"></div>
+            <div id="futureWeatherInfo"></div>
+        </div>
     </div>
 
     <script src="./assets/js/script.js"></script>
